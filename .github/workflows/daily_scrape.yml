@@ -1,0 +1,46 @@
+name: Master Scraper Pipeline
+
+on:
+  schedule:
+    # Run at 8:00 AM UTC every day
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Adds a "Run Now" button to your GitHub Actions tab
+
+permissions:
+  contents: write # CRITICAL: Allows the bot to save the JSON back to the repo
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Download your repository code
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # 3. Install Chrome & Selenium
+      # This step installs the browser so Selenium can see the websites
+      - name: Install Chrome & Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          pip install selenium webdriver-manager pandas
+
+      # 4. Run the Master Python Script
+      - name: Run Scrapers
+        run: python scrapers/main.py
+
+      # 5. Save the 'data/internships.json' file back to GitHub
+      - name: Commit and Push
+        run: |
+          git config --global user.name "InternshipBot"
+          git config --global user.email "bot@noreply.github.com"
+          git add data/internships.json
+          # Only commit if data actually changed
+          git commit -m "Auto-update: Found new internships" || echo "No changes to commit"
+          git push
