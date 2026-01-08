@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.8/purify.min.js"></script>
+</head>
+<body>
+
+    <div id="main-view">
+        <header class="app-header">
+            <h1>Internship <span style="color:var(--accent)">Hub</span></h1>
+            <p>Live trackers from across GitHub and External Sites</p>
+        </header>
+
+        <main id="grid-container" class="card-grid">
+            </main>
+    </div>
+
+    <div id="popup-overlay" class="popup-overlay">
+        <div class="popup-header">
+            <button onclick="closePopup()" class="back-btn">
+                ← Back to Menu
+            </button>
+            <span id="popup-title">Source Name</span>
+            <a id="popup-link" href="#" target="_blank" class="github-link-btn">View on GitHub</a>
+        </div>
+        
+        <div id="popup-content" class="markdown-body">
+            <div class="loading-spinner">Loading Data...</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
