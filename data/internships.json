@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Live Internship Feed",
+    "createdAt": 10101010,
+    "canvasBg": "#f1f5f9",
+    "headers": [
+      "Program",
+      "Compensation",
+      "Topic",
+      "Location",
+      "Dates",
+      "Link"
+    ],
+    "boxes": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 1,
+        "title": "Program / Role",
+        "textVal": "Program",
+        "isVar": true,
+        "bgColor": "#0f172a",
+        "textColor": "#ffffff",
+        "fontSize": 22
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "w": 2,
+        "h": 1,
+        "title": "Pay / Funding",
+        "textVal": "Compensation",
+        "isVar": true,
+        "bgColor": "#10b981",
+        "textColor": "#ffffff",
+        "fontSize": 18
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "title": "Timeline / Deadline",
+        "textVal": "Dates",
+        "isVar": true,
+        "bgColor": "#ffffff",
+        "textColor": "#000000",
+        "fontSize": 16
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "title": "Location / Housing",
+        "textVal": "Location",
+        "isVar": true,
+        "bgColor": "#ffffff",
+        "textColor": "#000000",
+        "fontSize": 16
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "w": 6,
+        "h": 1,
+        "title": "Tags & Disciplines",
+        "textVal": "Topic",
+        "isVar": true,
+        "bgColor": "#cbd5e1",
+        "textColor": "#1e293b",
+        "fontSize": 14
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "w": 6,
+        "h": 1,
+        "title": "Application Link",
+        "textVal": "Link",
+        "isVar": true,
+        "bgColor": "#3b82f6",
+        "textColor": "#ffffff",
+        "fontSize": 20
+      }
+    ],
+    "data": [
+      {
+        "Program": "Apprenticeship Program",
+        "Compensation": "Yes",
+        "Topic": "Trade",
+        "Location": "No",
+        "Dates": "Year Round",
+        "Link": "https://www.bpa.gov/about/careers/explore-a-career-at-bpa/bpa-apprenticeship-program"
+      },
+      {
+        "Program": "Argonne National Lab Givens Associates Program",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "No",
+        "Dates": "Summer",
+        "Link": "https://www.anl.gov/education/givens-associates"
+      },
+      {
+        "Program": "Berkeley Lab Computing Sciences Summer Student Program",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "No",
+        "Dates": "Summer",
+        "Link": "https://cs.lbl.gov/news-and-events/summer-program/"
+      },
+      {
+        "Program": "Community College Internship (CCI) Program",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Yes",
+        "Dates": "Summer, Fall, Spring",
+        "Link": "https://science.osti.gov/wdts/cci"
+      },
+      {
+        "Program": "DOE Scholars Program",
+        "Compensation": "Yes",
+        "Topic": "All",
+        "Location": "Yes",
+        "Dates": "Year Round",
+        "Link": "https://orise.orau.gov/doescholars/faq.html"
+      },
+      {
+        "Program": "Energy Storage Internship Program",
+        "Compensation": "Yes",
+        "Topic": "Energy Storage Related",
+        "Location": "Yes",
+        "Dates": "Summer",
+        "Link": "https://orise.orau.gov/amsummer/energy-storage/default.html"
+      },
+      {
+        "Program": "High Performance Computing Internship Program",
+        "Compensation": "Yes",
+        "Topic": "Computing Related",
+        "Location": "Yes",
+        "Dates": "Summer",
+        "Link": "https://orise.orau.gov/amsummer/hpc/default.html"
+      },
+      {
+        "Program": "Internship",
+        "Compensation": "Yes",
+        "Topic": "All",
+        "Location": "No",
+        "Dates": "Year Round",
+        "Link": "https://doe.usajobs.gov/"
+      },
+      {
+        "Program": "Los Alamos National Lab Co-Design Summer School",
+        "Compensation": "Yes",
+        "Topic": "Computer Science",
+        "Location": "No",
+        "Dates": "Summer",
+        "Link": "http://lanl.github.io/cdss/"
+      },
+      {
+        "Program": "Los Alamos National Lab Dynamics Summer School",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Yes",
+        "Dates": "Summer",
+        "Link": "https://www.lanl.gov/projects/national-security-education-center/engineering/los-alamos-dynamic-summer-school/index.php"
+      },
+      {
+        "Program": "Los Alamos National Lab Supercomputer Institute",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Yes",
+        "Dates": "Summer",
+        "Link": "https://www.lanl.gov/projects/national-security-education-center/information-science-technology/summer-schools/cscnsi/index.php"
+      },
+      {
+        "Program": "Marine and Hydrokinetic Graduate Student Research Program",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "No",
+        "Dates": "Year Round",
+        "Link": "https://www.energy.gov/eere/water/articles/apply-now-marine-and-hydrokinetic-graduate-student-research-program-0#:~:text=Applications%20are%20open%20for%20the%20Marine%20and%20Hydrokinetic,research%20thesis%20and%2For%20dissertation%20at%20a%20U.S.%20institution."
+      },
+      {
+        "Program": "Mickey Leland Energy Fellowship (MLEF)",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Yes",
+        "Dates": "Summer",
+        "Link": "https://orise.orau.gov/mlef/"
+      },
+      {
+        "Program": "NNSA Graduate Fellowship Program (NGFP)",
+        "Compensation": "Yes",
+        "Topic": "Various",
+        "Location": "No",
+        "Dates": "One Year Program",
+        "Link": "https://ngp.pnnl.gov/"
+      },
+      {
+        "Program": "NNSA Laboratory Residency Graduate Fellowship (LRGF) Program",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Yes",
+        "Dates": "Summer",
+        "Link": "https://www.krellinst.org/lrgf/"
+      },
+      {
+        "Program": "Oak Ridge National Lab Innovation in Buildings Graduate Student Research Program (IBUILD)",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Yes",
+        "Dates": "Year Round",
+        "Link": "https://ibuildfellowship.org/about/"
+      },
+      {
+        "Program": "Office of Technology Transitions Science, Technology, and Policy Fellowship (STP)",
+        "Compensation": "Yes",
+        "Topic": "STEM/Business",
+        "Location": "No",
+        "Dates": "Summer",
+        "Link": "https://www.energy.gov/technologytransitions/science-technology-and-policy-fellowship"
+      },
+      {
+        "Program": "Omni Technology Alliance Internship Program",
+        "Compensation": "Yes",
+        "Topic": "Cyber/Tech",
+        "Location": "Yes",
+        "Dates": "Summer",
+        "Link": "https://orise.orau.gov/doe-omni/index.html"
+      },
+      {
+        "Program": "Presidential Management Fellows (PMF) Programs",
+        "Compensation": "Yes",
+        "Topic": "All",
+        "Location": "No",
+        "Dates": "Full Time",
+        "Link": "https://www.pmf.gov/"
+      },
+      {
+        "Program": "Recent Graduates Program",
+        "Compensation": "Yes",
+        "Topic": "All",
+        "Location": "No",
+        "Dates": "Full Time",
+        "Link": "https://doe.usajobs.gov/search/results/?d=DN&s=enddate&sd=asc&p=1&hp=graduates"
+      },
+      {
+        "Program": "Robotics Internship",
+        "Compensation": "Yes",
+        "Topic": "Robotics, Engineering",
+        "Location": "Yes",
+        "Dates": "Summer",
+        "Link": "https://orise.orau.gov/amsummer/robotics/default.html"
+      },
+      {
+        "Program": "STEM Internships and Fellowships",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Varies",
+        "Dates": "Year Round",
+        "Link": "https://orise.orau.gov/internships-fellowships/index.html"
+      },
+      {
+        "Program": "Sandia National Lab Internships & Co-ops",
+        "Compensation": "Yes",
+        "Topic": "All",
+        "Location": "No",
+        "Dates": "Year Round, Summer Co-op",
+        "Link": "https://www.sandia.gov/careers/career-possibilities/students-and-postdocs/internships-co-ops/"
+      },
+      {
+        "Program": "Sandia National Lab Office of Indian Energy College Student Internship Program",
+        "Compensation": "Yes",
+        "Topic": "Energy",
+        "Location": "No",
+        "Dates": "Year Round",
+        "Link": "https://www.energy.gov/indianenergy/college-student-internship-program-requirements-and-application-process"
+      },
+      {
+        "Program": "Science Graduate Student Research Program (SCGSR)",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Yes",
+        "Dates": "Year Round",
+        "Link": "https://science.osti.gov/wdts/scgsr"
+      },
+      {
+        "Program": "Science Undergraduate Laboratory Internships (SULI)",
+        "Compensation": "Yes",
+        "Topic": "STEM",
+        "Location": "Yes",
+        "Dates": "Summer, Fall, Spring",
+        "Link": "https://science.osti.gov/wdts/suli"
+      },
+      {
+        "Program": "Summer Internship",
+        "Compensation": "Yes",
+        "Topic": "All",
+        "Location": "No",
+        "Dates": "Summer",
+        "Link": "https://doe.usajobs.gov/search/results/?d=DN&s=enddate&sd=asc&p=1&wt=15328&k="
+      }
+    ],
+    "history": []
+  }
+]
